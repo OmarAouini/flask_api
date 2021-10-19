@@ -6,8 +6,8 @@ COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 # omit in production, passed by env
-ENV FLASK_ENV='development'
-ENV SECRET='secret123'
+ENV FLASK_ENV='production'
+ENV SECRET='4djt759fne472meq'
 
 COPY . .
 
